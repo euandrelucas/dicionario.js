@@ -1,0 +1,12 @@
+{
+  "name": "dicionario.js",
+  "version": "1.0.0",
+  "description": "Pacote para dicionário da língua portuguesa.",
+  "main": "index.js",
+  "keywords": ["dicionario", "português", "dictionary", "api", "package", "lingua", "portuguesa"],
+  "author": "yADG",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
