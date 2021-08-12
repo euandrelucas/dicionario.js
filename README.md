@@ -1,6 +1,8 @@
 ## DICIONARIO.JS
 - Um package para obter significados de palavras da lingua portuguesa de maneira simples e facil.
 
+> [Servidor de Suporte](https://discord.gg/2pFH6Yy)
+
 ## Significado:
 
 ```js
