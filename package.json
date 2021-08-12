@@ -7,7 +7,11 @@
   "bugs": {
       "url" : "https://github.com/yADGithub/dicionario.js/issues",
       "email" : "contato.adg.ofc@gmail.com"
-  }, 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yADGithub/dicionario.js.git"
+  },
   "keywords": ["dicionario", "português", "dictionary", "api", "package", "lingua", "portuguesa"],
   "author": "yADG",
   "license": "MIT",
