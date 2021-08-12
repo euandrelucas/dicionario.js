@@ -1,6 +1,6 @@
 {
   "name": "dicionario.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pacote para dicionário da língua portuguesa.",
   "main": "index.js",
   "keywords": ["dicionario", "português", "dictionary", "api", "package", "lingua", "portuguesa"],

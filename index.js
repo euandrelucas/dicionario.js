@@ -10,6 +10,18 @@ class DicioJS {
             console.log(e)
         }
     }
+
+    async wikipedia(word) {
+        try {
+            return await axios.get(`https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURI(word)}`, {
+                'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'
+            }).then(response => {
+                return response.data
+            })
+        } catch (e) {
+            console.log(e)
+        }
+    }
 }
 
 module.exports = new DicioJS()
