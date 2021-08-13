@@ -1,5 +1,5 @@
 const axios = require('axios')
-
+const jokes = require('./jokes.json')
 class DicioJS {
     async significado(word) {
         try {
@@ -21,6 +21,14 @@ class DicioJS {
         } catch (e) {
             console.log(e)
         }
+    }
+
+    async piada() {
+        const rand = Math.floor(Math.random() * jokes.features.length)
+        const piada = jokes.features[rand]
+        return piada
+    } catch (e) {
+        console.log(e)
     }
 }
 
