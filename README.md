@@ -94,12 +94,10 @@ getWord()
 
 ```js
 const diciojs = require('dicionario.js')
-// Tem que ser uma função assicrona, pois dependendo pode retornar undefined.
-async function getWord() {
-    const word = await diciojs.piada()
 
-    return console.log(word)
-}
+const word = diciojs.piada()
+return console.log(word)
+
 getWord()
 ```
 
