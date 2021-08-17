@@ -1,8 +1,8 @@
 {
   "name": "dicionario.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Pacote para dicionário da língua portuguesa.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "homepage": "https://github.com/yADGithub/dicionario.js#readme",
   "bugs": {
     "url": "https://github.com/yADGithub/dicionario.js/issues",
@@ -24,6 +24,7 @@
   "author": "yADG",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1"
+    "@types/axios": "^0.14.0",
+    "typescript": "^4.3.5"
   }
 }
