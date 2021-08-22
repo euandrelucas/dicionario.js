@@ -1,6 +1,6 @@
 {
   "name": "dicionario.js",
-  "version": "1.0.9",
+  "version": "1.0.9b",
   "description": "Pacote para dicionário da língua portuguesa.",
   "main": "dist/index.js",
   "homepage": "https://github.com/yADGithub/dicionario.js#readme",
@@ -24,7 +24,7 @@
   "author": "yADG",
   "contributors": [{
     "name" : "2vitor",
-    "email" : "b@rubble.com"
+    "url" : "https://github.com/2vitor"
   }],
   "license": "MIT",
   "dependencies": {
