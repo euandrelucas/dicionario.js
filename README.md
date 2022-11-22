@@ -7,7 +7,7 @@
 
 ```js
 const diciojs = require('dicionario.js')
-// Tem que ser uma função assicrona, pois dependendo pode retornar undefined.
+// Tem que ser uma função assíncrona.
 async function getWord() {
     const word = await diciojs.significado('planeta')
 
